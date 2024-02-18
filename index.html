@@ -299,7 +299,7 @@
       <!-- Set Selection Section -->
 
 
-      <div class="mx-20 my-10 p-5 flex  rounded-xl bg-white">
+      <div class="lg:mx-20 my-10 p-5 lg:flex  rounded-xl bg-white">
 
 
         <!-- Left Side Top-->
@@ -496,9 +496,110 @@
 
 <!-- Right Side -->
 
-        <div class=" h-[800px] border-l-2  border-dotted w-1/2 pl-2 ">
+        <div class=" h-[800px] lg:border-l-2  border-dotted w-1/2 pl-2 ">
 
-          <h1>Hello</h1>
+          <div class="border-b-2 border-dotted">
+            <h1 class="font-bold py-2 ">Selected Seat & Fare </h1>
+          </div>
+
+
+          <!-- Coupon and Bill Section -->
+          <div class=" rounded-xl p-5 h-[350px] bg-slate-100 m-5 ">
+
+              <div class="flex justify-between font-bold pb-3 border-b-2 border-dotted">
+                <p>Seat <span>0</span></p>
+                <p>Class</p>
+                <p>Price</p>
+              </div>
+
+
+
+
+              <!-- Set Selection Info -->
+
+
+              <div class="flex justify-between pb-3 pt-3 ">
+                <p>A1</p>
+                <p>Economy</p>
+                <p>550</p>
+              </div>
+
+
+              <!-- Total Price -->
+
+              <div class="flex justify-between pb-3 pt-3 border-t-2 font-bold ">
+                <p>Total Price </p>
+                <p>BDT: 550</p>
+              </div>
+
+
+              <div class="flex justify-end pb-3 pt-3 border-t-2 font-bold ">
+                <label class="input pl-2 pr-0 w-full flex items-center">
+                  <input type="text" class="grow" placeholder="Have any Coupon?" />
+                  <button class=" bg-green-500 rounded-xl p-2">Apply</button>
+                </label>
+              </div>
+
+
+              <div class="flex justify-between pb-3 pt-3 font-bold border-b-2 ">
+                <p>Offer Price</p>
+                <p>BDT: 0</p>
+              </div>
+
+
+              <div class="flex justify-between pb-3 pt-3 font-bold ">
+                <p>Grand Total </p>
+                <p>BDT: 550</p>
+              </div>
+
+
+          </div>
+
+
+
+
+
+
+
+          <!-- Input Section -->
+          <div class="px-5">
+
+
+            <label class="form-control w-full">
+              <div class="label">
+                <span class="label-text font-bold">your name?<span class="text-red-600">*</span></span>
+              </div>
+              <input type="text" placeholder="Enter your name" class="input input-bordered w-full" />
+            </label>
+
+            <label class="form-control w-full">
+              <div class="label">
+                <span class="label-text font-bold">Phone Number<span class="text-red-600">*</span></span>
+              </div>
+              <input type="text" placeholder="Enter your Number " class="input input-bordered w-full" />
+            </label>
+
+            <label class="form-control w-full">
+              <div class="label">
+                <span class="label-text font-bold">Email ID<span class="text-red-600">*</span></span>
+              </div>
+              <input type="text" placeholder="Enter your Gmail" class="input input-bordered w-full" />
+            </label>
+
+
+            <button class="btn btn-wide w-full bg-green-500 mt-5">Next</button>
+
+
+
+            <div class=" flex justify-center gap-10 mt-3 underline underline-offset-4">
+              <p>Terms and Conditions</p>
+              <p>Cancellation Policy</p>
+            </div>
+
+          </div>
+          
+
+
 
         </div>
 

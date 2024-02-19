@@ -47,4 +47,6 @@ let totalSum = 0;
         document.getElementById('totalSum').innerText = `${totalSum}`;
         document.getElementById('grandTotalSum').innerText = `${totalSum}`;
 
+        document.getElementById('offerPrice').innerText = `${totalSum}`;
+
     }

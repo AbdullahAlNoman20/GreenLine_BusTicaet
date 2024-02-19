@@ -22,7 +22,7 @@ let totalSum = 0;
 
         // Update background color dynamically
         if (button.classList.contains('selected')) {
-            button.style.backgroundColor = '#3498db';
+            button.style.backgroundColor = '#008000';
             button.style.color = '#fff';
             totalSum += 550;
 

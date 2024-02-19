@@ -11,7 +11,7 @@
         hideElementById('success')
         showElementById('homePage')
 
-
+      
     }
 
     function scrollToSection(sectionId) {
@@ -22,12 +22,7 @@
       }
 
 
-      // Worked
-
-
-      const cards = document.querySelectorAll(".seat");
-
-      console.log
+  
 
 
 

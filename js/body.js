@@ -25,6 +25,11 @@
       // Worked
 
 
+      const cards = document.querySelectorAll(".seat");
+
+      console.log
+
+
 
 
 

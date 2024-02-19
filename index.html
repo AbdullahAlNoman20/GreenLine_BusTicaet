@@ -97,7 +97,7 @@
 
 
         <!-- Overlap Card -->
-        <section class="absolute lg:bottom-[-50px] lg:left-36 left-16  lg:px-5 lg:px-20 ">
+        <section class="absolute lg:bottom-[-50px] lg:left-36 left-16 px-5 lg:px-20 ">
         
 
             <div class=" flex gap-5 lg:gap-10 lg:flex-row flex-col  ">
@@ -302,7 +302,7 @@
       <!-- Set Selection Section -->
 
 
-      <div class="lg:mx-20 mt-10 lg:p-5 flex lg:flex-row flex-col items-center gap-3 rounded-xl bg-white h-auto mb-5">
+      <div class="lg:mx-24 mt-10 flex lg:flex-row flex-col items-center gap-3 rounded-xl bg-white h-auto p-5 ">
 
 
         <!-- Left Side-->
@@ -337,13 +337,13 @@
           
                       <div class=" flex items-center gap-5">
                         <p>A</p>
-                        <kbd class="seat kbd kbd-lg">A1</kbd>
-                        <kbd class="seat kbd kbd-lg">A2</kbd>
+                        <kbd id="a1" onclick="toggleColor()" class="btn  seat kbd kbd-lg">A1</kbd>
+                        <kbd id="a2" onclick="toggleColor()"  class="btn seat kbd kbd-lg">A2</kbd>
                       </div>
 
                       <div class=" flex items-center gap-5">
-                        <kbd class="seat kbd kbd-lg">A3</kbd>
-                        <kbd class="seat kbd kbd-lg">A4</kbd>
+                        <kbd class="btn seat kbd kbd-lg">A3</kbd>
+                        <kbd class="btn seat kbd kbd-lg">A4</kbd>
                       </div>
                     </div>
 
@@ -668,6 +668,7 @@
 
     <script src="js/body.js"></script>
     <script src="js/utility.js"></script>
+    
 
 </body>
 </html>

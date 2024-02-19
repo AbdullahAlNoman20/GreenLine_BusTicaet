@@ -13,7 +13,7 @@ let totalSum = 0;
 
         if (selectedButtons.length >= 4 && !button.classList.contains('selected')) {
             // Alert and return if attempting to select more than 2 buttons
-            alert('You can select up to four buttons.');
+            alert('You can select up to four Seats.');
             return;
         }
 

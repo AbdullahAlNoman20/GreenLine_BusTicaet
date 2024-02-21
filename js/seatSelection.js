@@ -26,23 +26,34 @@ let totalSum = 0;
             button.style.color = '#fff';
             totalSum += 550;
 
+            // Update the total button count display
+        const remainingButtonsCount = totalButtonsCount - selectedButtons.length;
+        document.getElementById('totalButtons').innerText = `${remainingButtonsCount}`;
+
+        // Update the total button count display
+        const remainingSeatCount = seatSelectedCount + selectedButtons.length;
+        document.getElementById('seatCount').innerText = `${remainingSeatCount}`;
+
+
 
         } else {
             button.style.backgroundColor = '#fff';
             button.style.color = '#333';
             totalSum -= 550;
 
-        }
-
-        // Update the total button count display
-        const remainingButtonsCount = totalButtonsCount - selectedButtons.length;
+            // Update the total button count display
+        const remainingButtonsCount = totalButtonsCount + selectedButtons.length;
         document.getElementById('totalButtons').innerText = `${remainingButtonsCount}`;
 
-
         // Update the total button count display
-        const remainingSeatCount = seatSelectedCount + selectedButtons.length;
+        const remainingSeatCount = seatSelectedCount - selectedButtons.length;
         document.getElementById('seatCount').innerText = `${remainingSeatCount}`;
 
+
+
+        }
+
+        
         // Update the total sum display
         document.getElementById('totalSum').innerText = `${totalSum}`;
         document.getElementById('grandTotalSum').innerText = `${totalSum}`;
